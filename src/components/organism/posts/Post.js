@@ -6,15 +6,11 @@ import { UpdatePost } from "../../organism";
 
 const Post = ({ post, deletePost, updatePost }) => {
   const [showUpdatePost, setShowUpdatePost] = useState(false);
-  console.log(
-    "🚀 ~ file: Post.js ~ line 9 ~ Post ~ showUpdatePost",
-    showUpdatePost
-  );
 
   return (
     <div
       className={classNames(
-        "flex m-1 p-2 w-full  justify-between items-center  shadow-md"
+        "flex p-2  justify-between items-center  shadow-md"
       )}
     >
       {showUpdatePost ? (
@@ -28,9 +24,9 @@ const Post = ({ post, deletePost, updatePost }) => {
           setShowUpdatePost={setShowUpdatePost}
         />
       ) : (
-        <div>
-          <div className="w-full overflow-auto">
-            <h3 className="text-lg"> {post.title}</h3>
+        <div className="flex w-full m-2 overflow-auto justify-between">
+          <div>
+            <h3 className="text-xl"> {post.title}</h3>
             <p className="">{post.body}</p>
           </div>
 

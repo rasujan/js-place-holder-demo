@@ -2,7 +2,7 @@ import Post from "./Post";
 
 const Posts = ({ posts, deletePost, updatePost }) => {
   return (
-    <div className="flex flex-col w-full p-2 bg-gray-50 border border-gray-800 rounded-lg transition-all ">
+    <div className="flex flex-col w-full bg-gray-50 border border-gray-800 rounded-lg transition-all ">
       {posts.map((post) => (
         <Post
           post={post}

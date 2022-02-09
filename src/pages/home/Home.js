@@ -74,12 +74,8 @@ const Home = () => {
         toggleAddPost={toggleAddPost}
         showAddPostState={showAddPost}
       />
-
       {showAddPost && <AddPost onAdd={addPost} />}
-
-      <div className="flex flex-col justify-center">
-        <Posts posts={posts} deletePost={deletePost} updatePost={updatePost} />
-      </div>
+      <Posts posts={posts} deletePost={deletePost} updatePost={updatePost} />
     </div>
   );
 };
