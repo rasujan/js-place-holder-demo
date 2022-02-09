@@ -1,16 +1,22 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "user": 1,
-        "title": "json-server",
-        "body": "typicode"
-      },
-      {
-        "id": 1624001767598,
-        "user": 12,
-        "title": "sujan",
-        "body": "maharjan"
-      }
-    ]
-  }
+  "posts": [
+    {
+      "id": 1644384179537,
+      "user": 12,
+      "title": "Hello",
+      "body": "World is beautiful"
+    },
+    {
+      "id": 1644384703300,
+      "user": 12,
+      "title": "your",
+      "body": "world"
+    },
+    {
+      "id": 1644384803104,
+      "user": 12,
+      "title": "title",
+      "body": "body"
+    }
+  ]
+}
